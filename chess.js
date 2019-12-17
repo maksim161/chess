@@ -14,8 +14,8 @@ $(function () {
 function start() {
   map = new Array(64);
   addSquares();
-  showFigures ('rnbqkbnrpppppppp11111111111111111111111111111111PPPPPPPPRNBQKBNR')
- // showFiguresPHP();
+  //showFigures ('rnbqkbnrpppppppp11111111111111111111111111111111PPPPPPPPRNBQKBNR')
+  showFiguresPHP();
 }
 
 function flipBoard() {
